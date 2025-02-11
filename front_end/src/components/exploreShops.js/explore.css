@@ -1,0 +1,84 @@
+.explore {
+    /* text-align: center;
+    padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+
+  .explore hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+  }
+  
+  .explore h1{
+    color: #262626;
+    font-weight: 500;
+  }
+  .explore-menu-text{
+    max-width: 60%;
+    color: #808080;
+    cursor: pointer;
+  }
+  .shop-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 30px;
+   margin: 20px 0px;
+   overflow-x:scroll ;
+  }
+  .shop-list p{
+    margin-top: 10px;
+    color: #747474;
+    font-size: max(1.4vw,13px);
+    cursor: pointer;
+  }
+  .shop-list ::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .shop-card {
+    border: 1px solid #ddd;
+   padding: 15px;
+    /* width: 200px; */
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  } 
+  
+  img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    min-width: 80px;
+    cursor: pointer;
+    border-radius: 5%;
+    transition: 0.2s;
+  }
+  
+  .menu-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-items li {
+    margin: 5px 0;
+  }
+ .menu-items .active{
+  border: 4px solid;
+  color: tomato;
+  padding: 2px;
+ }
+ .order-button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+ 
+}

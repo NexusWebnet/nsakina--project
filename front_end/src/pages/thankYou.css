@@ -1,0 +1,36 @@
+/* thank-you-page.css */
+.thank-you-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .thank-you-page h1 {
+    font-size: 2rem;
+    color: #28a745;
+  }
+  
+  .thank-you-page p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .thank-you-page a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .thank-you-page a:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+.navbar{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Outfit;
+    /* background-color: rgb(233, 228, 228); */
+    
+}
+ .navbar .logo{
+ width: 150px;
+ padding: 20px;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #1b1b1b;
+    font-size: 18px;
+}
+.navbar-right,.search{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+img{
+    width: 60px;
+    height: 60px; 
+}
+.nav-button{
+    background: transparent;
+    font-size: 16px;
+    color: #49557e;
+    border: 1px solid tomato;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.navbar button:hover {
+    background-color: #ffb400;
+}
+.navbar .active{
+    padding-bottom:2px ;
+    border-bottom: 2px solid #49557e;
+}
+.navbar li{
+    cursor: pointer;
+}
+.search{
+    position: relative
+    ;
+}
+.search .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
+}
+input{
+    width: 300px; /* Standard width */
+    height: 40px; /* Standard height */
+    padding: 0 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    border-color: #007BFF;
+}
